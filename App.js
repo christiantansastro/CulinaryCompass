@@ -14,6 +14,8 @@ import Register from "./screens/Register";
 import HomePage from "./screens/HomePage";
 import Settings from "./screens/Settings";
 import RecipeList from "./screens/RecipeList";
+import RecipeInfo from "./screens/RecipeInfo";
+import MapScreen from "./screens/MapScreen";
 
 const Stack = createStackNavigator();
 
@@ -72,9 +74,9 @@ export default function App() {
   const [showHomePage, setShowHomePage] = useState(false);
 
   const [loaded] = useFonts({
-    FiraSans_Regular: require("C:/Users/chris/assignment2-native/assets/fonts/FiraSans_Regular.ttf"),
-    FiraSans_Bold: require("C:/Users/chris/assignment2-native/assets/fonts/FiraSans_Bold.ttf"),
-    FiraSans_Medium: require("C:/Users/chris/assignment2-native/assets/fonts/FiraSans_Medium.ttf"),
+    FiraSans_Regular: require("C:/Users/chris/final-project/assets/fonts/FiraSans_Regular.ttf"),
+    FiraSans_Bold: require("C:/Users/chris/final-project/assets/fonts/FiraSans_Bold.ttf"),
+    FiraSans_Medium: require("C:/Users/chris/final-project/assets/fonts/FiraSans_Medium.ttf"),
   });
 
   if (!loaded) {
@@ -302,6 +304,16 @@ export default function App() {
           options={{ headerShown: false }}
           name="RecipeList"
           component={RecipeList}
+        />
+        <Stack.Screen
+          options={{ headerShown: false }}
+          name="RecipeInfo"
+          component={RecipeInfo}
+        />
+        <Stack.Screen
+          options={{ headerShown: false }}
+          name="MapScreen"
+          component={MapScreen}
         />
       </Stack.Navigator>
     </NavigationContainer>

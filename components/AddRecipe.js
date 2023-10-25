@@ -100,9 +100,9 @@ const AddRecipe = () => {
   };
 
   const [loaded] = useFonts({
-    FiraSans_Regular: require("C:/Users/chris/assignment2-native/assets/fonts/FiraSans_Regular.ttf"),
-    FiraSans_Bold: require("C:/Users/chris/assignment2-native/assets/fonts/FiraSans_Bold.ttf"),
-    FiraSans_Medium: require("C:/Users/chris/assignment2-native/assets/fonts/FiraSans_Medium.ttf"),
+    FiraSans_Regular: require("C:/Users/chris/final-project/assets/fonts/FiraSans_Regular.ttf"),
+    FiraSans_Bold: require("C:/Users/chris/final-project/assets/fonts/FiraSans_Bold.ttf"),
+    FiraSans_Medium: require("C:/Users/chris/final-project/assets/fonts/FiraSans_Medium.ttf"),
   });
 
   if (!loaded) {

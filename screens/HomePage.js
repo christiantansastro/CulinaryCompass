@@ -1,4 +1,4 @@
-import { View, StyleSheet, Image, TouchableOpacity } from "react-native";
+import { View, StyleSheet } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useFonts } from "expo-font";
 import { Tab, TabView } from "@rneui/themed";
@@ -15,9 +15,9 @@ function HomePage() {
   const [index, setIndex] = React.useState(0);
 
   const [loaded] = useFonts({
-    FiraSans_Regular: require("C:/Users/chris/assignment2-native/assets/fonts/FiraSans_Regular.ttf"),
-    FiraSans_Bold: require("C:/Users/chris/assignment2-native/assets/fonts/FiraSans_Bold.ttf"),
-    FiraSans_Medium: require("C:/Users/chris/assignment2-native/assets/fonts/FiraSans_Medium.ttf"),
+    FiraSans_Regular: require("C:/Users/chris/final-project/assets/fonts/FiraSans_Regular.ttf"),
+    FiraSans_Bold: require("C:/Users/chris/final-project/assets/fonts/FiraSans_Bold.ttf"),
+    FiraSans_Medium: require("C:/Users/chris/final-project/assets/fonts/FiraSans_Medium.ttf"),
   });
 
   if (!loaded) {

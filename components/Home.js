@@ -9,10 +9,13 @@ import {
 import React from "react";
 import Category from "../components/Category";
 import size from "../config/size";
+import { useNavigation } from "@react-navigation/core";
+import { Recipes } from "../components/CardList";
 
 const { height, width } = Dimensions.get("window");
 
 const Home = () => {
+  const navigation = useNavigation();
   return (
     <View>
       <ScrollView scrollEventThrottle={16}>
@@ -41,24 +44,31 @@ const Home = () => {
               horizontal={true}
               showsHorizontalScrollIndicator={false}
             >
-              <TouchableOpacity>
-                <Category
-                  imageUri={require("../images/vegan_burrito.jpg")}
-                  name="Vegan Burrito"
-                />
-              </TouchableOpacity>
-              <TouchableOpacity>
-                <Category
-                  imageUri={require("../images/salad.jpg")}
-                  name="Kale & Quinoa Salad"
-                />
-              </TouchableOpacity>
-              <TouchableOpacity>
-                <Category
-                  imageUri={require("../images/cajun.jpg")}
-                  name="Cajun Chicken Pasta"
-                />
-              </TouchableOpacity>
+              {Recipes.map((recipe) => {
+                return (
+                  <TouchableOpacity
+                    onPress={() =>
+                      navigation.replace("RecipeInfo", {
+                        recipeName: recipe.recipeName,
+                        recipeDescription: recipe.recipeDescription,
+                        recipeIngredients: recipe.recipeIngredients,
+                        recipeTime: recipe.recipeTime,
+                        recipeOrigin: recipe.recipeOrigin,
+                        recipeVideo: recipe.recipeVideo,
+                        latitude: recipe.latitude,
+                        longitude: recipe.longitude,
+                        latitudeDelta: recipe.latitudeDelta,
+                        longitudeDelta: recipe.longitudeDelta,
+                      })
+                    }
+                  >
+                    <Category
+                      imageUri={recipe.recipeImage}
+                      name={recipe.recipeName}
+                    />
+                  </TouchableOpacity>
+                );
+              })}
             </ScrollView>
           </View>
           <View style={{ marginTop: 20, paddingHorizontal: 20 }}>
