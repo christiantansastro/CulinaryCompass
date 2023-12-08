@@ -1,4 +1,4 @@
-![image](https://github.com/christiantansastro/CulinaryCompass/assets/137610891/e9d9a001-5362-49ce-a65e-17cccd49fe16)<h1 align="center"> Culinary Compass </h1>  
+<h1 align="center"> Culinary Compass </h1>  
 
 <!-- TABLE OF CONTENTS -->
 <details>
