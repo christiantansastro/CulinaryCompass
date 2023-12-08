@@ -1,4 +1,4 @@
-<h1 align="center"> Culinary Compass </h1>  
+![image](https://github.com/christiantansastro/CulinaryCompass/assets/137610891/e9d9a001-5362-49ce-a65e-17cccd49fe16)<h1 align="center"> Culinary Compass </h1>  
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -39,15 +39,43 @@ Waste Less Taste More!
 
 ## User Interface
 
-### Home Page
-![homePage](https://github.com/christiantansastro/Parcel-Management-System/assets/137610891/5e83b974-5658-4bd1-b2e5-8a9b00acc63b)
+### Onboarding Screen
+![image](https://github.com/christiantansastro/CulinaryCompass/assets/137610891/70f963af-b8b3-4c4b-928b-c4824776aabf)
+![image](https://github.com/christiantansastro/CulinaryCompass/assets/137610891/2011319b-0f53-42fa-bd5c-a361cff9a885)
+![image](https://github.com/christiantansastro/CulinaryCompass/assets/137610891/d0737246-9398-4074-bec9-93a3abef2dcc)
 
-### Customer Login
-![image](https://github.com/christiantansastro/Parcel-Management-System/assets/137610891/851fa291-6d27-4f96-a70b-011d7dd50a4b)
+### Start Screen
+![image](https://github.com/christiantansastro/CulinaryCompass/assets/137610891/27f267a3-b1f2-4382-b3b7-4c708d39a03b)
 
-### Track Parcel
-![trackParcel](https://github.com/christiantansastro/Parcel-Management-System/assets/137610891/616f6325-f448-41ae-8c2b-d584d88bfe84)
+### Login Screen
+![image](https://github.com/christiantansastro/CulinaryCompass/assets/137610891/10bf0288-ff8e-427d-91e7-f70b3f9c8104)
 
+### Sign Up Screen
+![image](https://github.com/christiantansastro/CulinaryCompass/assets/137610891/bf57abf7-127e-4735-a603-4e13f2dc8ac2)
+
+### Home Screen
+![image](https://github.com/christiantansastro/CulinaryCompass/assets/137610891/f2928856-db10-4976-bf97-2fe1213cfb9e)
+
+### Recipe Information Screen
+![image](https://github.com/christiantansastro/CulinaryCompass/assets/137610891/666e1249-d3cb-488b-9302-d0b680bf434f)
+
+### Search Screen
+![image](https://github.com/christiantansastro/CulinaryCompass/assets/137610891/bf3fcca0-ed40-44cb-9059-ddc21fe90cf9)
+
+### Camera Screen
+![image](https://github.com/christiantansastro/CulinaryCompass/assets/137610891/75d3352b-2d8b-4c19-9505-3f7d69d7bf52)
+
+### Add Recipe Screen
+![image](https://github.com/christiantansastro/CulinaryCompass/assets/137610891/d4741909-16b8-434b-9895-32c6fca3482a)
+
+### Profile Screen
+![image](https://github.com/christiantansastro/CulinaryCompass/assets/137610891/75e9ef04-f9fd-4aee-ac50-4cdbeff8c853)
+
+### Settings Screen
+![image](https://github.com/christiantansastro/CulinaryCompass/assets/137610891/ffb6bc07-4585-4860-bef2-f549a24e1166)
+
+### Recipe List Screen
+![image](https://github.com/christiantansastro/CulinaryCompass/assets/137610891/1f66c854-8a92-401a-bf8e-9bf9dd5626da)
 
 <!-- CONTACT -->
 ## Contact
